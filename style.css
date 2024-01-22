@@ -1,0 +1,125 @@
+/* Reset some default styles to ensure consistency */
+html, body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+}
+
+.primary-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu-item {
+    margin-right: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu-item.current a {
+    border-bottom: 2px solid #fff;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.section-a, .section-b, .section-c {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/*----start page content----*/
+#page_content{
+    background:#EBEEEE;
+    padding:10px;
+}
+
+#page_content .right_section{
+    width:735px;
+    float:right;
+}
+
+#page_content .right_section .top_content{
+    padding:15px 0 0px 0;
+}
+
+#page_content .right_section .top_content .column_one{
+    width:300px;
+    float:left;
+    margin-bottom:20px;
+}
+
+#page_content .right_section .top_content .column_two{
+    width:300px;
+    float:right;
+    margin-bottom:20px;
+}
+
+.common_content{
+    padding:0 0 20px 0;
+}
